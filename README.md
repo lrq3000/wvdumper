@@ -15,7 +15,7 @@ Use pip to install the dependencies:
 ## Usage:
 
 * Enable USB debugging
-* Start frida-server on the device
+* Start [frida-server](https://play.google.com/store/apps/details?id=me.shingle.fridaserver) on the device
 * Execute dump_keys.py
 * Start streaming some DRM-protected content
 
