@@ -29,7 +29,7 @@ The script will hook every function in your widevine 'libwvhidl.so'/'libwvaidl.s
 python3 dump_keys.py
 ```
 
-You can pass the function name to hook using the `--function-name` argument. You can use [this post](https://forum.videohelp.com/threads/404219-How-To-Dump-L3-CDM-From-Android-Device-s-(ONLY-Talk-About-Dumping-L3-CDMS)/page6#post2646150) to retrive it by yourself.
+You can pass the function name to hook using the `--function-name` argument. You can use [this post](https://forum.videohelp.com/threads/404219-How-To-Dump-L3-CDM-From-Android-Device-s-(ONLY-Talk-About-Dumping-L3-CDMS)/page6#post2646150) to retrieve it by yourself.
 ```
 python3 dump_keys.py --function-name 'polorucp'
 ```
