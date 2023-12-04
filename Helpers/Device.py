@@ -11,7 +11,7 @@ class Device:
         self.logger = logging.getLogger(__name__)
         self.saved_keys = {}
         self.widevine_libraries = module_names
-        self.usb_device = frida.get_usb_device()
+        self.usb_device = frida.get_usb_device(1)  # add a 1s delay to solve most issues with frida.InvalidArgumentError: device not found
         self.name = self.usb_device.name
 
         with open('./Helpers/script.js', 'r', encoding="utf_8") as script:
